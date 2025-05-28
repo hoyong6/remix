@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.16+commit.07a7930e"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -12,7 +12,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "account",
+				"name": "amount",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -40,11 +40,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_account",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"name": "update_account",
+				"name": "updateAmount",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -63,9 +63,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/4_changeNums.sol": "exampleModifier"
+			"contracts/23_modifier.sol": "exampleModifier"
 		},
-		"evmVersion": "london",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -77,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/4_changeNums.sol": {
-			"keccak256": "0x5a9c8ac9e927e691ea7d85302c6a29b77e6e22659e78b323ee632672c73621d0",
+		"contracts/23_modifier.sol": {
+			"keccak256": "0x9c1d871277ee7cc50a4308768606b60f3325a2b09215f2d8ea9b3b9bf777e025",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://65add21f259181fd864720fc1983771ade020836a5d678b6c52c556de9f24d0e",
-				"dweb:/ipfs/QmaYVR7ff24aVXqcDgd6pxBm5fUu7MJuFSCgoftSJcqZLj"
+				"bzz-raw://3a259c92d3dddf2fa2959d2310bbfc11a98281cb7be86feebdf1e4174442c0bd",
+				"dweb:/ipfs/QmPvVHyMZZS8Z7TZYtzBydouRM9jepPqjtSVTCtKvxLHH7"
 			]
 		}
 	},
